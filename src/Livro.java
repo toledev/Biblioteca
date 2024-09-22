@@ -7,11 +7,11 @@ public class Livro {
     private String dataAtt;
 
     // Criando construtor
-    public Livro(int idLivro, String titulo, Autor autor) {
+    public Livro(int idLivro, String titulo, Autor autor, Boolean disponivel) {
         this.idLivro = idLivro;
         this.titulo = titulo;
         this.autor = autor;
-        this.disponivel = true;
+        this.disponivel = disponivel;
         this.dataCadastro = "22/09/2024";
         this.dataAtt = "22/09/2024";
     }
@@ -28,7 +28,7 @@ public class Livro {
         return autor;
     }
 
-    public boolean isDisponivel(boolean b) {
+    public boolean isDisponivel() {
         return disponivel;
     }
 
