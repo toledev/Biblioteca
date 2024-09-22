@@ -1,6 +1,10 @@
-autor;1;Autor@7e6cbb7a
-autor;2;Autor@7c3df479
-autor;3;12
-livro;1;As tranças do rei careca;1
-livro;2;As crônicas de gelo e fogo;2
-livro;1;123;3
+autor;1;Stephen King
+autor;2;Freud
+autor;3;a
+autor;4;JK Rowling
+autor;5;Tio Patinhas
+livro;1;O Diário de um banana;1;true
+livro;2;Teoria da Psicologia;2;true
+livro;3;a;3;true
+livro;4;Cabeça de bagre;4;true
+livro;5;ABC do Amor;5;false
