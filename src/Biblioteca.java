@@ -186,5 +186,36 @@ public class Biblioteca {
         }
     }
 
+    public void emprestarLivro() {
+        for (Livro livro : livros) {
+            if (livro.isDisponivel() == true) {
+                listarLivros();
+            }
+        }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe o ID do livro que deseja emprestar: ");
+        int idLivro = scanner.nextInt();
+
+        Livro livroEncontrado = null;
+        for (Livro livro : livros) {
+            if (livro.getIdLivro() == idLivro) {
+                livroEncontrado = livro;
+                break;
+            }
+        }
+        if (livroEncontrado != null && livroEncontrado.isDisponivel()) {
+            livroEncontrado.setDisponivel(false);
+            System.out.println("Livro emprestado com sucesso!");
+
+            System.out.println("Informe seu nome: ");
+            String nomeUsuario = scanner.next();
+
+            salvar("livro.txt");
+        } else {
+            System.out.println("Livro não encontrado ou não disponível para empréstimo!");
+        }
+    }
+
 
 }

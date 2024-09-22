@@ -36,7 +36,7 @@ public class Principal {
                     biblioteca.listarLivros();
                     break;
                 case 3:
-                    System.out.println("Funcionalidade de empréstimo ainda não implementada.");
+                    biblioteca.emprestarLivro();
                     break;
                 case 4:
                     biblioteca.excluirLivro();

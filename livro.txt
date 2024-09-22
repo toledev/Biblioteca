@@ -3,8 +3,7 @@ autor;2;Freud
 autor;3;a
 autor;4;JK Rowling
 autor;5;Tio Patinhas
-livro;1;O Diário de um banana;1;true
-livro;2;Teoria da Psicologia;2;true
-livro;3;a;3;true
-livro;4;Cabeça de bagre;4;true
+livro;1;O Diário de um banana;1;false
+livro;2;Teoria da Psicologia;2;false
+livro;4;Cabeça de bagre;4;false
 livro;5;ABC do Amor;5;false
