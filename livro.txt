@@ -1,0 +1,6 @@
+autor;1;Autor@7e6cbb7a
+autor;2;Autor@7c3df479
+autor;3;12
+livro;1;As tranças do rei careca;1
+livro;2;As crônicas de gelo e fogo;2
+livro;1;123;3
